@@ -19,6 +19,7 @@
    *
    * @param {settings} settings - Settings of bubble chart
    */
+   console.log(d3.svg);
   d3.svg.BubbleChart = function (settings) {
     var self = this;
     var defaultViewBoxSize = settings.size;

@@ -12,6 +12,7 @@ d3.svg.BubbleChart.define("central-click", function (options) {
         if (node.selectAll("text.central-click")[0].length === 1
             && options.centralClick
             && node.datum) {
+          // console.log("_______________^^^_______________");
           var nodeDatum = node.datum();
           if (nodeDatum.item) {
             options.centralClick(nodeDatum.item);

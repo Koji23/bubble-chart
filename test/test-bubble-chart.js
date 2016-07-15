@@ -41,7 +41,9 @@ $(document).ready(function () {
           },
           attr: {dy: "65px"},
           centralClick: function(item) {
-            alert("Here is more details: " + item.text + "!!");
+            // alert("Here is more details: " + item.text + "!!");
+            window.location.href = 'http://google.com';
+            // console.log()
           }
         }
       },
